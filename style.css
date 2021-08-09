@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    align-items: center;
+    position: relative;
+}
+#logo{
+    margin: 12px 20px 3px 20px;
+}
+#logo img{
+    height: 73px;
+    margin: 14px 10px;
+}
+#navbar ul{
+    display: flex; 
+    align-items: center;
+ }
+ 
+ #navbar ul li{
+     list-style: none;
+     
+     font-size: 130%;
+ }
+ #navbar ul li a{
+     color: black;
+     display: block;
+     padding: 3px 22px;
+     border-radius: 20px;
+     text-decoration: none;
+ }
+ #navbar ul li a:hover{
+     color: black;
+     background-color: rgb(155, 155, 155);
+ }
+
+ .btn{
+     border-radius: 10px;
+}
+ .btn img{
+    height: 40px;
+    border-radius: 10px;
+ }
+.h-primary{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    color: rgb(26, 6, 82);
+}
+.heading{
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    color: rgb(26, 6, 82);
+}
+#button{
+    align-items: center;
+    background: linear-gradient(to bottom right,rgb(37, 181, 224),rgb(26, 118, 180));
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: white;
+    text-align: center;
+    border-radius: 10px; 
+    width: auto;
+}
+.App{
+    background: linear-gradient(to right top, white 5%,rgba(166, 238, 241, 0.356),rgba(255, 107, 70, 0.096));
+}
+#footer ul{
+    list-style: none;
+    font-size: 130%;
+    display: flex;
+    justify-content: space-between;
+}
+ #footer ul li a{
+     color: black;
+     display: block;
+     padding: 3px 22px;
+     border-radius: 20px;
+     text-decoration: none;
+ }
