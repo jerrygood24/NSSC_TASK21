@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+.navbar-expand {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 #navbar{
     align-items: center;
     position: relative;
@@ -13,6 +16,14 @@
 #logo img{
     height: 73px;
     margin: 14px 10px;
+}
+
+.fa-map-marker:before {
+    content: "\f041";
+    color: #68dde7;
+    top: 10px;
+    font-size: 25px;
+    position: relative;
 }
 #navbar ul{
     display: flex; 
